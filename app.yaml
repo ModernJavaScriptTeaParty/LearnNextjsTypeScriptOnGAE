@@ -1,6 +1,6 @@
 env: standard # スタンダード環境（省略可）
 
-runtime: nodejs14 # Node.js 14を使う（追記: nodejs16も使えるようになりました）
+runtime: nodejs16 # Node.js 14を使う（追記: nodejs16も使えるようになりました）
 
 instance_class: F4
 
