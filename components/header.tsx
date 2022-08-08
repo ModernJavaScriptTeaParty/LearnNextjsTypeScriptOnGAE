@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Header: NextPage =()=> {
-    return <header>HEADER</header>
+    return <header>HEADER comp</header>
 }
 
 export default Header

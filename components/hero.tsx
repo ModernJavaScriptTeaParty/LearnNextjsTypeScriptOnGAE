@@ -7,7 +7,7 @@ const Hero: NextPage =() => {
     return (
         <div>
             <h1>CUBE</h1>
-            <p>アプトプットしていくサイト</p>
+            <p>アプトプットしていくサイト comp</p>
         </div>
     )
 }
