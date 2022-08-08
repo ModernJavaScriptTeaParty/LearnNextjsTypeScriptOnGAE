@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from 'styles/Home.module.css'
 
-import layout from 'componets/layout'
-import Hero from 'components/hero'
+import layout from 'components/layout'
+import Hero from   'components/hero'
 
 const Home: NextPage = () => {
   return (

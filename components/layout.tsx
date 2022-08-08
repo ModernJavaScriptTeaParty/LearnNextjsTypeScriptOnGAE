@@ -17,3 +17,5 @@ const Layout: NextPage =( porps )=> {
 
     )
 }
+
+export default Layout
