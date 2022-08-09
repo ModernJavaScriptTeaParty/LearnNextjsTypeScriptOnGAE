@@ -1,10 +1,3 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from 'styles/Home.module.css'
-
-const Header: NextPage =()=> {
+export default function Header() {
     return <header>HEADER comp</header>
 }
-
-export default Header
