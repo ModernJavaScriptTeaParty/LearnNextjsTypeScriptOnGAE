@@ -8,9 +8,9 @@ import Hero from   'components/hero'
 const Home: NextPage = () => {
   return (
     <Hero 
-      title="CUBE"
-      subtitle="アプトプットしていくサイト"
-      imageOn
+      title = "CUBE"
+      subtitle = "アプトプットしていくサイト"
+      imageOn = {true}
     />
  )
 }

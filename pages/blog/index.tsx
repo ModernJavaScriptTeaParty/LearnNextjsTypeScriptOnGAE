@@ -8,8 +8,8 @@ import Hero from   'components/hero'
 const Home: NextPage = () => {
   return (
     <Hero 
-      title="Blog" 
-      subtitle="React Posts"
+      title = "Blog" 
+      subtitle = "React Posts"
       imageOn = {false}
     />
  )
