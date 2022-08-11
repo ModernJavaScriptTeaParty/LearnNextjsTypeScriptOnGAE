@@ -10,6 +10,7 @@ const Home: NextPage = () => {
     <Hero 
       title="CUBE"
       subtitle="アプトプットしていくサイト"
+      imageOn
     />
  )
 }
