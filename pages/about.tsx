@@ -9,8 +9,9 @@ const Home: NextPage = () => {
   return (
     <Hero 
       title = "About"
-      subtitle=" About development activities"
-  />
+      subtitle ="About development activities"
+      imageOn = {false}
+    />
  )
 }
 

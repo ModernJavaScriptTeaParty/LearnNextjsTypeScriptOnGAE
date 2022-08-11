@@ -10,6 +10,7 @@ const Home: NextPage = () => {
     <Hero 
       title="Blog" 
       subtitle="React Posts"
+      imageOn = {false}
     />
  )
 }
