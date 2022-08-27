@@ -9,7 +9,7 @@ import PostBody from 'components/post-body'
 
 const Home: NextPage = () => {
   return (
-    <Container>
+    <Container large={false}>
       <Hero title = "About" subtitle ="About development activities" imageOn = {false} />
       
       <PostBody>

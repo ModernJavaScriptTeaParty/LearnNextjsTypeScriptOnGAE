@@ -8,7 +8,7 @@ import Hero from   'components/hero'
 
 const Home: NextPage = () => {
   return (
-    <Container>
+    <Container large={false}>
       <Hero title = "Blog" subtitle = "React Posts" imageOn = {false} />
     </Container>
  )

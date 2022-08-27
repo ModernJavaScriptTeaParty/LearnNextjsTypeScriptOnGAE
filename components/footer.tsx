@@ -5,7 +5,7 @@ import styles from 'styles/footer.module.css';
 export default function Footer() {
     return (
         <footer className={styles.wrapper}>
-            <Container>
+            <Container large={false}>
                 <div className={styles.flexContainer}>
                     <Logo />
                     [ソーシャル]
