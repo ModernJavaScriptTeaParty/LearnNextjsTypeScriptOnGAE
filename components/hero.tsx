@@ -8,7 +8,7 @@ type Props = {
 
 export default function Hero( { title, subtitle, imageOn = false }: Props) {
     return (
-        <div>
+        <div className={styles.flexContainer}>
             <div className={styles.text} >
                 <h1 className={styles.title}>{title}</h1>
                 <p className={styles.subtitle}>{subtitle}</p>
