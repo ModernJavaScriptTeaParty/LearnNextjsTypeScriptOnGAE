@@ -9,11 +9,7 @@ import Hero from   'components/hero'
 const Home: NextPage = () => {
   return (
     <Container>
-      <Hero 
-        title = "Blog" 
-        subtitle = "React Posts"
-        imageOn = {false}
-      />
+      <Hero title = "Blog" subtitle = "React Posts" imageOn = {false} />
     </Container>
  )
 }
