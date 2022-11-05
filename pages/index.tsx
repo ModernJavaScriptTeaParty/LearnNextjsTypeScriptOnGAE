@@ -9,7 +9,7 @@ import Hero from   'components/hero'
 const Home: NextPage = () => {
   return (
     <Container large={false}>
-      <Hero title = "CUBE" subtitle = "アプトプットしていくサイト test" imageOn = {true} />
+      <Hero title = "CUBE" subtitle = "アプトプットしていくサイト" imageOn = {true} />
     </Container>
  )
 }
