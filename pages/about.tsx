@@ -9,10 +9,24 @@ import PostBody from 'components/post-body'
 import Contact from 'components/contact'
 import { TwoColumn, TwoColumnMain, TwoColumnSideber } from 'components/two-column'
 
+import eyecatch from 'images/about.jpg'
+
 const Home: NextPage = () => {
   return (
     <Container large={false}>
       <Hero title = "About" subtitle ="About development activities" imageOn = {false} />
+
+      <figure>
+        <Image 
+          src={eyecatch}
+          alt=""
+          layout="responsive"
+          sizes="(min-width: 1152px) 1152px, 100vw"
+          priority
+          placeholder='bulr'
+          />
+      </figure>
+      
       <TwoColumn>
         <TwoColumnMain>
           <PostBody>
