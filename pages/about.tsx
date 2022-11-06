@@ -6,6 +6,7 @@ import styles from 'styles/Home.module.css'
 import Container from 'components/container'
 import Hero from   'components/hero'
 import PostBody from 'components/post-body'
+import Contact from 'components/contact'
 
 const Home: NextPage = () => {
   return (
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
           今までと違うもののを作ることで愛着が湧いてきます。そこで興味を持ったことは小さなことっでもいいから取り入れて、良いものを作れるようにしています。小さなヒントから新しいものを生み出すようなモノづくりは、これからも続けていきたいです。
         </p>
        </PostBody>
+       <Contact />
       </Container>
   )
 }
