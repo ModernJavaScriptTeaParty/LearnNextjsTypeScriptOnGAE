@@ -7,6 +7,7 @@ import Container from 'components/container'
 import Hero from   'components/hero'
 import PostBody from 'components/post-body'
 import Contact from 'components/contact'
+import Meta from 'components/meta'
 import { TwoColumn, TwoColumnMain, TwoColumnSideber } from 'components/two-column'
 
 import eyecatch from 'images/about.jpg'
@@ -14,9 +15,7 @@ import eyecatch from 'images/about.jpg'
 const Home: NextPage = () => {
   return (
     <Container large={false}>
-      <Head>
-        <title>アバウト</title>
-      </Head>
+      <Meta pageTitle={"アバウト"} />
 
       <Hero title = "About" subtitle ="About development activities" imageOn = {false} />
 
