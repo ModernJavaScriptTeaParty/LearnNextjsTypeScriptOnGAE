@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import styles from 'styles/social.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,9 +8,13 @@ import {
     faGithub,
 } from '@fortawesome/free-brands-svg-icons'
 
-export default function Social() {
+type Props = {
+    iconSize: ReactNode ;
+}
+
+export default function Social( { iconSize }: Props) {
     return ( 
-        <ul className={styles.list}>
+        <ul className={styles.list} style={{['--icon-size' as any]: iconSize}}>
             <li>
                 <a href="https://twitter.com/">
                     <FontAwesomeIcon icon={faTwitter} />
