@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           layout="responsive"
           sizes="(min-width: 1152px) 1152px, 100vw"
           priority
-          placeholder='bulr'
+          placeholder='blur'
           />
       </figure>
       
