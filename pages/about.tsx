@@ -14,6 +14,10 @@ import eyecatch from 'images/about.jpg'
 const Home: NextPage = () => {
   return (
     <Container large={false}>
+      <Head>
+        <title>アバウト</title>
+      </Head>
+
       <Hero title = "About" subtitle ="About development activities" imageOn = {false} />
 
       <figure>
