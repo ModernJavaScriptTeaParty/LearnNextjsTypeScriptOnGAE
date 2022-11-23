@@ -5,11 +5,17 @@ import { useRouter } from 'next/router'
 const { siteTitle, siteDesc, siteUrl, siteLocation, siteType, siteIcon } = siteMeta
 let desc : string
 
+// 汎用OGP画像
+import siteImg from 'images/ogp.jpg'
+
 type Props = {
     pageTitle: string
     pageDesc: string
+    pageImg: any
+    pageImgW: number
+    pageImgH: number
 }
-export default function Meta( { pageTitle , pageDesc }: Props ) {
+export default function Meta( { pageTitle, pageDesc, pageImg, pageImgW, pageImgH }: Props ) {
     //ページのタイトル
     const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
     //ページの説明
@@ -20,7 +26,9 @@ export default function Meta( { pageTitle , pageDesc }: Props ) {
     }
     // ページのURL
     const router = useRouter()
-    const url = `${siteUrl}${router.asPath}`
+    const url = `${siteUrl}${router.asPath}
+
+    const img = 
 
     return (
         <Head>
