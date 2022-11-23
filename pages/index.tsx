@@ -1,3 +1,4 @@
+import Meta from 'components/meta'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -9,6 +10,7 @@ import Hero from   'components/hero'
 const Home: NextPage = () => {
   return (
     <Container large={false}>
+      <Meta pageTitle=''/>
       <Hero title = "CUBE" subtitle = "アプトプットしていくサイト" imageOn = {true} />
     </Container>
  )
