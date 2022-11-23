@@ -15,7 +15,7 @@ import eyecatch from 'images/about.jpg'
 const Home: NextPage = () => {
   return (
     <Container large={false}>
-      <Meta pageTitle={"アバウト"} />
+      <Meta pageTitle="アバウト" pageDesc='About development activities' />
 
       <Hero title = "About" subtitle ="About development activities" imageOn = {false} />
 

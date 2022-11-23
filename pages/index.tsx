@@ -10,7 +10,7 @@ import Hero from   'components/hero'
 const Home: NextPage = () => {
   return (
     <Container large={false}>
-      <Meta pageTitle=''/>
+      <Meta pageTitle='' pageDesc=''/>
       <Hero title = "CUBE" subtitle = "アプトプットしていくサイト" imageOn = {true} />
     </Container>
  )
