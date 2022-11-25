@@ -12,9 +12,9 @@ let desc : string
 type Props = {
     pageTitle: string
     pageDesc: string
-    pageImg: any
-    pageImgW: number
-    pageImgH: number
+    pageImg?: any
+    pageImgW?: any
+    pageImgH?: any
 }
 export default function Meta( { pageTitle , pageDesc ,
                                 pageImg = siteImg.src,
